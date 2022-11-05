@@ -1,0 +1,1 @@
+# wpf-application-with-Squirrel-and-GitHub
