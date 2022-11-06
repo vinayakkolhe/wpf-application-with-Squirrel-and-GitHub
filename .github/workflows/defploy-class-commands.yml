@@ -43,5 +43,5 @@ jobs:
         env:
             GH_TOKEN: ${{ secrets.RELEASEREPOSECRETE }}
         run: |
-            gh release create v1.2.5 C:/Windows/Deployment/Releases/Setup.msi C:/Windows/Deployment/Releases/Setup.exe -R https://github.com/vinayakkolhe/AppReleaseRepo
+            gh release create v1.2.6 (get-item C:/Windows/Deployment/Releases/*.exe) (get-item C:/Windows/Deployment/Releases/*.msi) (get-item C:/Windows/Deployment/Releases/*.nupkg) C:/Windows/Deployment/Releases/RELEASES -R https://github.com/vinayakkolhe/AppReleaseRepo
             
