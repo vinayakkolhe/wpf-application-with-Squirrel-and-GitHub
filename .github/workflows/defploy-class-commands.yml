@@ -36,7 +36,7 @@ jobs:
 
       - uses: csexton/release-asset-action@v2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: "${{ secrets.ReleaseRepoSecrete }}"
           pattern: "C:/Windows/Deployment/Releases/*"
           release-url: ${{ steps.create_release.outputs.upload_url }}
           
