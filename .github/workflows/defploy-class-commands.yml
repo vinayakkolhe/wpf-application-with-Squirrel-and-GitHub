@@ -41,6 +41,6 @@ jobs:
           
       - name: Publish
         env:
-            GITHUB_TOKEN: "${{ secrets.RELEASE_REPO_SECRET }}"
+            GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         run: |
             gh release create v0.0.1 C:/Windows/Deployment/Releases/* -R https://github.com/vinayakkolhe/AppReleaseRepo
