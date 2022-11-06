@@ -43,5 +43,9 @@ jobs:
         env:
             GH_TOKEN: ${{ secrets.RELEASEREPOSECRETE }}
         run: |
-            gh release create v1.2.3 (get-item C:/Windows/Deployment/Releases/*.exe) -R https://github.com/vinayakkolhe/AppReleaseRepo
+            RELFILES=""
+            for relfile in "C:/Windows/Deployment/Releases/"}; do
+            RELFILES+=${relfile}
+            done
+            gh release create v1.2.5 ${RELFILES} -R https://github.com/vinayakkolhe/AppReleaseRepo
             
