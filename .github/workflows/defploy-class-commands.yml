@@ -3,7 +3,7 @@ name: "Deploy Class Commands"
 on:
   push:
     tags:
-      - "WpfApp1/v*"
+      - "WpfApp1/WpfApp1/v*"
 
 env:
   PROJECT_PATH: WpfApp1.csproj
