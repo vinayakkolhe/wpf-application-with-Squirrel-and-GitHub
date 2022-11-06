@@ -42,7 +42,7 @@ jobs:
           
           
       - name: Publish
-        env:
-            GH_TOKEN: ReleaseRepoSecrete
+        
         run: |
+            echo "ReleaseRepoSecrete" | gh auth login --with-token
             gh release create v0.0.1 "C:/Windows/Deployment/Releases/" -R https://github.com/vinayakkolhe/AppReleaseRepo
