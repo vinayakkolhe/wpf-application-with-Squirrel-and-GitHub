@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ApplicationWPF</id>
-    <version>0.0.0</version>
+    <version>1.0.4</version>
     <title>Title</title>
     <authors>Author</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
