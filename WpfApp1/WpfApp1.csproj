@@ -24,7 +24,7 @@
 		<SquirrelTools>$(Pkgsquirrel_windows)\tools</SquirrelTools>
 		<Solution>$(SolutionDir)</Solution>
 
-		<Version>1.0.0</Version>
+		<Version>1.0.4</Version>
 
 		<NuspecFile>$(SolutionDir)ReleaseSpec.nuspec</NuspecFile>
 	</PropertyGroup>
