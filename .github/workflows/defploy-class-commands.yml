@@ -36,13 +36,13 @@ jobs:
 
       - uses: csexton/release-asset-action@v2
         with:
-          github-token: "${{ secrets.ReleaseRepoSecrete }}"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           pattern: "C:/Windows/Deployment/Releases/*"
           release-url: ${{ steps.create_release.outputs.upload_url }}
           
           
       - name: Publish
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: "ReleaseRepoSecrete"
         run: |
             gh release create v0.0.1 "C:/Windows/Deployment/Releases/" -R https://github.com/vinayakkolhe/AppReleaseRepo
