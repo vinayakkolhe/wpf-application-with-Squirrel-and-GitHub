@@ -44,6 +44,6 @@ jobs:
             GH_TOKEN: ${{ secrets.RELEASEREPOSECRETE }}
             BRANCH: ${{github.ref_name}}
         run: |
-            echo "Tag name from GITHUB_REF_NAME: ${BRANCH} "
+            echo "Tag name from GITHUB_REF_NAME: ${BRANCH##*/} "
             gh release create ${{github.ref}} (get-item C:/Windows/Deployment/Releases/*.exe) (get-item C:/Windows/Deployment/Releases/*.msi) (get-item C:/Windows/Deployment/Releases/*.nupkg) C:/Windows/Deployment/Releases/RELEASES -R https://github.com/vinayakkolhe/AppReleaseRepo
             
