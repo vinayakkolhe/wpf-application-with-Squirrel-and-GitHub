@@ -43,4 +43,4 @@ jobs:
         env:
             GH_TOKEN: ${{ secrets.RELEASEREPOSECRETE }}
         run: |
-            gh release create v0.0.1 "C:/Windows/Deployment/Releases/" -R https://github.com/vinayakkolhe/AppReleaseRepo
+            gh release create v0.0.1 "C:/Windows/Deployment/Releases/*" -R https://github.com/vinayakkolhe/AppReleaseRepo
