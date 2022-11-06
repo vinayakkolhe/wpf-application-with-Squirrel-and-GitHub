@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "WpfApp1/1.0.0": {
+      "WpfApp1/1.0.4": {
         "dependencies": {
           "NuGet.CommandLine": "6.3.1",
           "squirrel.windows": "1.9.0"
@@ -758,7 +758,7 @@
     }
   },
   "libraries": {
-    "WpfApp1/1.0.0": {
+    "WpfApp1/1.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1803,6 +1803,7 @@
         "tools/Squirrel-Mono.exe",
         "tools/Squirrel.com",
         "tools/Squirrel.exe",
+        "tools/SquirrelSetup.log",
         "tools/StubExecutable.exe",
         "tools/SyncReleases.exe",
         "tools/WixNetFxExtension.dll",
@@ -4795,13 +4796,13 @@
     "C:\\Users\\Vinayak\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.4",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vinayak\\Desktop\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Vinayak\\Desktop\\Newfolder\\wpf-application-with-Squirrel-and-GitHub\\WpfApp1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\Vinayak\\Desktop\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "projectPath": "C:\\Users\\Vinayak\\Desktop\\Newfolder\\wpf-application-with-Squirrel-and-GitHub\\WpfApp1\\WpfApp1.csproj",
       "packagesPath": "C:\\Users\\Vinayak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vinayak\\Desktop\\WpfApp1\\WpfApp1\\obj\\",
+      "outputPath": "C:\\Users\\Vinayak\\Desktop\\Newfolder\\wpf-application-with-Squirrel-and-GitHub\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vinayak\\AppData\\Roaming\\NuGet\\NuGet.Config",

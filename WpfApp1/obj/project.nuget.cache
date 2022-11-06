@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qzLwTSuSjAG6KcCH/bfyQP+8V5SUFU7gbM3ipHK6vfW0j2VFI/kDc+Hy6txS6iNm2EGmbYt100F7DT515ssZMg==",
+  "dgSpecHash": "EKYf0K65VvVtP3gjkcFxsVp+XDuyj4vw9aZTVtGxJysF9ot/U/ul9ZBPZ4n/i/54ki1dUQ00anBjwuKF0DRKUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vinayak\\Desktop\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "projectFilePath": "C:\\Users\\Vinayak\\Desktop\\Newfolder\\wpf-application-with-Squirrel-and-GitHub\\WpfApp1\\WpfApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vinayak\\.nuget\\packages\\deltacompressiondotnet\\1.1.0\\deltacompressiondotnet.1.1.0.nupkg.sha512",
     "C:\\Users\\Vinayak\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
