@@ -44,5 +44,5 @@ jobs:
       - name: Publish
         
         run: |
-            echo "ReleaseRepoSecrete" | gh auth login --with-token
+            echo [ReleaseRepoSecrete] | gh auth login --hostname github.internal.com git_protocol https --with-token
             gh release create v0.0.1 "C:/Windows/Deployment/Releases/" -R https://github.com/vinayakkolhe/AppReleaseRepo
