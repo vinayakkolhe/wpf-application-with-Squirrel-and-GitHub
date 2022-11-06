@@ -34,7 +34,7 @@
 			<Output TaskParameter="Result" ItemName="ID" />
 		</XmlPeek>
 
-		<Exec Command="$(NugetTools)\NuGet.exe pack $(NuspecFile) -Version $(Version) -Properties Configuration=Release -OutputDirectory $(SolutionDir)Deployment\GeneratedNugets" />
+		<Exec Command="$(NugetTools)\NuGet.exe pack $(NuspecFile) -Version $(Version) -Properties Configuration=Release -OutputDirectory $(Solution)Deployment\GeneratedNugets" />
 
 		<Exec Command="$(SquirrelTools)\Squirrel.exe --releasify $(Solution)Deployment\GeneratedNugets\@(ID).$(Version).nupkg --releaseDir=$(Solution)Deployment\Releases" />
 	</Target>
