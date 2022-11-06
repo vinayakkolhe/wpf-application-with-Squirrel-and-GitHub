@@ -43,5 +43,6 @@ jobs:
         env:
             GH_TOKEN: ${{ secrets.RELEASEREPOSECRETE }}
         run: |
-            gh release create ${GITHUB_REF#refs/*/} (get-item C:/Windows/Deployment/Releases/*.exe) (get-item C:/Windows/Deployment/Releases/*.msi) (get-item C:/Windows/Deployment/Releases/*.nupkg) C:/Windows/Deployment/Releases/RELEASES -R https://github.com/vinayakkolhe/AppReleaseRepo
+            echo ${GITHUB_REF#refs/*/*/}
+            gh release create ${GITHUB_REF#refs/*/*/} (get-item C:/Windows/Deployment/Releases/*.exe) (get-item C:/Windows/Deployment/Releases/*.msi) (get-item C:/Windows/Deployment/Releases/*.nupkg) C:/Windows/Deployment/Releases/RELEASES -R https://github.com/vinayakkolhe/AppReleaseRepo
             
